@@ -1,0 +1,16 @@
+{
+  "name": "cypressaccessibilitytesting",
+  "version": "1.0.0",
+  "description": "example project for automated accessibility tests",
+  "main": "index.js",
+  "scripts": {
+    "cyopen": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axe-core": "^3.4.1",
+    "cypress": "^3.8.2",
+    "cypress-axe": "^0.5.3"
+  }
+}
