@@ -1,1 +1,20 @@
-{}
+{
+    "baseUrl": "https://jordnkr.github.io/homeCostCalculator",
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter.json"
+    },
+    "env": {
+        "A11Y_OPTIONS": {
+            "runOnly": {
+                "type": "tag",
+                "values": ["wcag2a", "wcag2aa"]
+            }
+        },
+        "endpoints": {
+            "cashToClose": "/cashToCloseCalculator.html",
+            "expectedPayments": "/expectedPaymentsCalculator.html"
+        }
+    }
+}
