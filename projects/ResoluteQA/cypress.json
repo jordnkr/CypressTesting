@@ -1,0 +1,21 @@
+{
+    "baseUrl": "https://jordnkr.github.io/Resolute_QA",
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter.json"
+    },
+    "env": {
+        "A11Y_OPTIONS": {
+            "runOnly": {
+                "type": "tag",
+                "values": ["wcag2a", "wcag2aa"]
+            }
+        },
+        "endpoints": {
+            "summary": "/summary.html",
+            "dailyResults": "/dailyResults.html",
+            "bugs": "/bugs.html"
+        }
+    }
+}

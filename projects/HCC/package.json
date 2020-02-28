@@ -1,0 +1,10 @@
+{
+    "name": "home-cost-calculator",
+    "version": "1.0.0",
+    "description": "HCC accessibility testing",
+    "main": "index.js",
+    "scripts": {
+      "cypress:open": "..\\..\\node_modules\\.bin\\cypress open",
+      "cypress:run": "..\\..\\node_modules\\.bin/cypress run"
+    }
+}

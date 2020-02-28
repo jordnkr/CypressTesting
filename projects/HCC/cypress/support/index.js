@@ -19,3 +19,8 @@ import "cypress-axe"; // accessibility testing
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// returning false here prevents Cypress from failing the test due to an uncaught console exception (not the target of these accessibility tests)
+Cypress.on('uncaught:exception', function(err, runnable) {
+    return false 
+})

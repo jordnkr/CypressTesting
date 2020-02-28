@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "example project for automated accessibility tests",
   "main": "index.js",
-  "scripts": {
-    "cyopen": "cypress open",
-    "cyrun": "cypress run"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "devDependencies": {
