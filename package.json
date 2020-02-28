@@ -4,13 +4,19 @@
   "description": "example project for automated accessibility tests",
   "main": "index.js",
   "scripts": {
-    "cyopen": "cypress open"
+    "cyopen": "cypress open",
+    "cyrun": "cypress run"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "axe-core": "^3.4.1",
-    "cypress": "^3.8.2",
-    "cypress-axe": "^0.5.3"
+    "axe-core": "3.5.1",
+    "cypress": "4.0.2",
+    "cypress-axe": "0.5.3",
+    "cypress-multi-reporters": "1.2.4",
+    "mocha": "7.1.0",
+    "mochawesome": "5.0.0",
+    "mochawesome-merge": "4.0.1",
+    "mochawesome-report-generator": "4.1.0"
   }
 }
