@@ -1,0 +1,13 @@
+{
+    "video": false,
+    "reporter": "../../node_modules/cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "../../reporter.json"
+    },
+    "env": {
+        "urls": {
+            "hcc": "https://jordnkr.github.io/homeCostCalculator",
+            "resoluteqa": "https://jordnkr.github.io/Resolute_QA"
+        }
+    }
+}
