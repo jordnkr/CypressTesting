@@ -1,10 +1,13 @@
 {
-    "name": "home-cost-calculator",
-    "version": "1.0.0",
-    "description": "HCC accessibility testing",
-    "main": "index.js",
-    "scripts": {
-      "cypress:open": "..\\..\\node_modules\\.bin\\cypress open",
-      "cypress:run": "..\\..\\node_modules\\.bin/cypress run"
-    }
+  "name": "home-cost-calculator",
+  "version": "1.0.0",
+  "description": "HCC accessibility testing",
+  "main": "index.js",
+  "scripts": {
+    "cleanup": "rmdir /Q /S cypress\\reports",
+    "cy:open": "..\\..\\node_modules\\.bin\\cypress open",
+    "cy:run": "..\\..\\node_modules\\.bin\\cypress run",
+    "merge_reports": "npx mochawesome-merge cypress\\reports\\mochawesome\\*.json > cypress\\reports\\complete_results.json",
+    "create_html_report": "npx mochawesome-report-generator --reportDir cypress\\reports\\ --cdn true --charts true cypress\\reports\\complete_results.json"
+  }
 }

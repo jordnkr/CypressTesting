@@ -1,9 +1,9 @@
 {
     "baseUrl": "https://jordnkr.github.io/homeCostCalculator",
     "video": false,
-    "reporter": "cypress-multi-reporters",
+    "reporter": "../../node_modules/cypress-multi-reporters",
     "reporterOptions": {
-        "configFile": "reporter.json"
+        "configFile": "../../reporter.json"
     },
     "env": {
         "A11Y_OPTIONS": {

@@ -24,3 +24,8 @@ import "cypress-axe"; // accessibility testing
 Cypress.on('uncaught:exception', function(err, runnable) {
     return false 
 })
+
+// Disable screenshots
+Cypress.Screenshot.defaults({
+    screenshotOnRunFailure: false
+})
