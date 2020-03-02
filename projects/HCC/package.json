@@ -1,7 +1,7 @@
 {
   "name": "home-cost-calculator",
   "version": "1.0.0",
-  "description": "HCC accessibility testing",
+  "description": "HCC testing",
   "main": "index.js",
   "scripts": {
     "cleanup": "rmdir /Q /S cypress\\reports",

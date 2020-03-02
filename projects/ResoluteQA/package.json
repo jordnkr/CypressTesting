@@ -1,7 +1,7 @@
 {
   "name": "resolute-qa",
   "version": "1.0.0",
-  "description": "ResoluteQA accessibility testing",
+  "description": "ResoluteQA testing",
   "main": "index.js",
   "scripts": {
     "cleanup": "rmdir /Q /S cypress\\reports",

@@ -1,7 +1,7 @@
 {
-  "name": "cypressaccessibilitytesting",
+  "name": "cypress-testing",
   "version": "1.0.0",
-  "description": "example project for automated accessibility tests",
+  "description": "example project for automated tests with Cypress",
   "main": "index.js",
   "scripts": {},
   "author": "",
