@@ -8,7 +8,7 @@
   "license": "ISC",
   "devDependencies": {
     "axe-core": "3.5.1",
-    "cypress": "4.0.2",
+    "cypress": "^4.0.2",
     "cypress-axe": "0.5.3",
     "cypress-multi-reporters": "1.2.4",
     "mocha": "7.1.0",
